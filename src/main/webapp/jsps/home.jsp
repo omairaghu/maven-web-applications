@@ -9,7 +9,7 @@
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to Mithun Techurnologies Pvt Ltd. swtPh No: +91-9980923226,9550600914oyh8  Bengaluru,Karnataka </h1>
+<h1 align="center">Welcome to Mithun Techurno9logies Pvt Ltd. h No: +91-9980923226,9550600914oyh8  Bengaluru,Karnataka </h1>
 <h1 align="center"> Mithun Technologies- Very Good Training center forhdh DevOps with AWS in Bangalore India and also for Job Assitance Job Support also...Teaching Real Time scnerios</h1>
 <hr>
 <br>
