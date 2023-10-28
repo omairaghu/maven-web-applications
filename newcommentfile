@@ -1,0 +1,22 @@
+node{
+
+mavenHome = tool name: "maven 3.9.4"
+
+stage('checkoutcode'){git credentialsId: 'ff403066-1d9d-4c6c-a518-cee3c70787aa', url: 'https://github.com/omairaghu/maven-web-applications.git'
+}
+
+stage('Build'){ sh "${mavenHome}/bin/mvn clean package"
+}
+/*
+stage('executesonarqubereport') { sh "${mavenHome}/bin/mvn clean sonar:sonar"
+}
+
+stage('uploadartifactIDintoNexus'){ sh "${mavenHome}/bin/mvn clean deploy"
+}
+
+stage('deployintotomcat'){ sshagent(['573f5387-9a5e-4f6e-b7de-82639bd26919']) {
+    sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@172.31.6.185:/opt/apache-tomcat-9.0.82/webapps"
+}
+}
+*/
+}//node closing
